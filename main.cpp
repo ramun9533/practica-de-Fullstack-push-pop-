@@ -54,12 +54,14 @@ int main()
                 break;
         }
     } while (menU != MAXSIZE - 1);
-    
-   for (int i = 0; i < MAXSIZE; i++)
-     {
-        cout<<"El dato en la posiscion  "<<i<<" es "<<stack[i];
-        cout<<"     Dato rescatado en posicion  "<<i<<" es "<<dato[i]<<endl;
-     }
-     cout<<"Dato del acomulador es  "<<acum<<endl;
+    //<---------------------------------------------------------------------------//
+    //Codigo para verificar valores//
+    //--------------------------------------------------------------------------->//
+   //for (int i = 0; i < MAXSIZE; i++)
+     //{
+     //   cout<<"El dato en la posiscion  "<<i<<" es "<<stack[i];
+      //  cout<<"     Dato rescatado en posicion  "<<i<<" es "<<dato[i]<<endl;
+     //}
+     //cout<<"Dato del acomulador es  "<<acum<<endl;
   return 0;
 }
